@@ -1,0 +1,18 @@
+.nav-hidden {
+    opacity: 0;
+    width: 0;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.nav-active {
+    opacity: 1;
+    z-index: 999;
+    width: 20vw;
+}
+
+#navbar-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
